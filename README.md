@@ -1,5 +1,3 @@
-# OCR-Chess-tournament-software
- 
 # Chess Tournament Management Program
 
 This Python program is designed to help you create, launch, and manage chess tournaments with ease. Follow the step-by-step instructions below to get started:
