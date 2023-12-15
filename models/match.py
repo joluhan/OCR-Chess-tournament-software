@@ -29,3 +29,4 @@ class Match_Model:
                 return data_loaded
         except (json.JSONDecodeError, FileNotFoundError):
             return None
+        
