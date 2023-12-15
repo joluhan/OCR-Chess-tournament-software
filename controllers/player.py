@@ -123,5 +123,5 @@ class Player_controller:
                 print("Player ID is not valid.")
                 return False
         else:
-            print("Player Dose nat exist")
-            return Falses
+            print("Player Does not exist")
+            return False
