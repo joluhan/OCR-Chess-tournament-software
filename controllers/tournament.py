@@ -191,7 +191,7 @@ class Tournament_controller:
                 print("Tournament ID is incorrect, Please enter correct ID")
         else:
             print("".center(60, "-"))
-            print("Tournament Data dose not exist.")
+            print("Tournament Data does not exist.")
         return False
 
     def add_player(self, tournament_id, player_id):
@@ -236,7 +236,7 @@ class Tournament_controller:
                     print("Tournament is already Started")
                     return
             else:
-                print("Tournament Dose not exist")
+                print("Tournament does not exist")
                 return
 
         # Calling Player Model to get Player Data
@@ -258,7 +258,7 @@ class Tournament_controller:
             else:
                 print("Player ID is not valid or Tournament ID is not correct")
         else:
-            print("Player Data dose not exist.")
+            print("Player Data does not exist.")
         return False
 
     def list_tournament_player(self, tournament_id):
@@ -315,7 +315,7 @@ class Tournament_controller:
             else:
                 print("Tournament ID is not correct")
         else:
-            print("Tournament Data dose not exist.")
+            print("Tournament Data does not exist.")
 
         # Returning player Data
         return player_output_data
@@ -367,10 +367,10 @@ class Tournament_controller:
                     print("Tournament is already completed")
                     return
             else:
-                print("Tournament Dose not exist")
+                print("Tournament does not exist")
                 return
         else:
-            print("Tournament data dose not exist.")
+            print("Tournament data does not exist.")
             return
 
         # calling create_score_model to create score data of each player for each round
@@ -653,7 +653,7 @@ class Tournament_controller:
                         return_data.append(tournament_data[tournament_id][i])
                 return return_data
             else:
-                print("Tournament dose not started/created.")
+                print("Tournament does not started/created.")
         else:
             print("Tournament is not created yet.")
         return False
@@ -703,10 +703,10 @@ class Tournament_controller:
                 # Get current tournament round
                 current_round = str(tournament_data[tournament_id]["current_round"])
             else:
-                print("Tournament Data dose not exist.")
+                print("Tournament Data does not exist.")
                 return
         else:
-            print("Tournament Data dose not exist.")
+            print("Tournament Data does not exist.")
             return
 
         # Checking if match data exist or not
@@ -857,10 +857,10 @@ class Tournament_controller:
                 # Get current tournament round
                 current_round = str(tournament_data[tournament_id]["current_round"])
             else:
-                print("Tournament Data dose not exist.")
+                print("Tournament Data does not exist.")
                 return
         else:
-            print("Tournament Data dose not exist.")
+            print("Tournament Data does not exist.")
             return
 
         # Check if score data exist or not
@@ -951,10 +951,10 @@ class Tournament_controller:
                 # Get current tournament round
                 current_round = str(tournament_data[tournament_id]["current_round"])
             else:
-                print("Tournament Data dose not exist.")
+                print("Tournament Data does not exist.")
                 return
         else:
-            print("Tournament Data dose not exist.")
+            print("Tournament Data does not exist.")
             return
         # Checking if match data exist or not
         if tournament_match_data:
@@ -975,7 +975,7 @@ class Tournament_controller:
             self.model.save_data(tournament_data)
             self.match.save_data(tournament_match_data)
         else:
-            print("Tournament Data dose not exist")
+            print("Tournament Data does not exist")
         return False
 
     def tournament_details_date(self, tournament_id):
