@@ -26055,13 +26055,11 @@
 .\env\Lib\site-packages\setuptools\config\_validate_pyproject\fastjsonschema_exceptions.py:17:120: E501 line too long (139 > 119 characters)
 .\env\Lib\site-packages\setuptools\config\expand.py:260:46: E203 whitespace before ':'
 .\env\Lib\site-packages\setuptools\config\setupcfg.py:390:44: E203 whitespace before ':'
-.\models\match.py:32:1: W293 blank line contains whitespace
-.\models\match.py:32:9: W292 no newline at end of file
-.\models\player.py:32:1: W293 blank line contains whitespace
-.\models\player.py:32:9: W292 no newline at end of file
-.\models\score.py:32:1: W293 blank line contains whitespace
-.\models\score.py:32:9: W292 no newline at end of file
-.\models\tournament.py:35:1: W293 blank line contains whitespace
-.\models\tournament.py:35:9: W292 no newline at end of file
+.\main.py:29:11: W292 no newline at end of file
+.\models\match.py:32:1: W391 blank line at end of file
+.\models\player.py:32:1: W391 blank line at end of file
+.\models\score.py:32:1: W391 blank line at end of file
+.\models\tournament.py:35:1: W391 blank line at end of file
 .\views\player.py:149:1: W293 blank line contains whitespace
 .\views\player.py:149:5: W292 no newline at end of file
+.\views\tournament.py:340:60: W292 no newline at end of file

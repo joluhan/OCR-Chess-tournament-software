@@ -1022,4 +1022,4 @@ class Tournament_controller:
                 return False
         else:
             # Displaying a message if tournament data does not exist
-            print("Tournament Data dose not exist.")
+            print("Tournament Data does not exist.")
