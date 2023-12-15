@@ -1,0 +1,42 @@
+{
+    "AB12345": {
+        "dob": "12/05/1985",
+        "first_name": "Jean",
+        "last_name": "Dupont"
+    },
+    "CD45678": {
+        "dob": "07/11/1990",
+        "first_name": "Marie",
+        "last_name": "Martin"
+    },
+    "EF78901": {
+        "dob": "07/11/1990",
+        "first_name": "Henri",
+        "last_name": "Leroux"
+    },
+    "GH23456": {
+        "dob": "18/08/1987",
+        "first_name": "Lucie",
+        "last_name": "Garnier"
+    },
+    "IJ34567": {
+        "dob": "30/01/2001",
+        "first_name": "Olivier",
+        "last_name": "Lambert"
+    },
+    "KL56789": {
+        "dob": "05/05/1995",
+        "first_name": "Alice",
+        "last_name": "Mercier"
+    },
+    "OP89012": {
+        "dob": "09/12/1970",
+        "first_name": "Charlotte",
+        "last_name": "Moreau"
+    },
+    "ST23450": {
+        "dob": "26/06/1993",
+        "first_name": "Sophia",
+        "last_name": "Lefebvre"
+    }
+}
