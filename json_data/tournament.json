@@ -1,0 +1,43 @@
+{
+    "TN1": {
+        "completed": true,
+        "current_round": 5,
+        "description": "An intense chess competition with top players from around the world.",
+        "end_date": "2023-09-20",
+        "location": "Chess Arena",
+        "name": "Grand Chess Championship",
+        "number_of_rounds": "5",
+        "players": [
+            "KL56789",
+            "OP89012",
+            "EF78901",
+            "AB12345"
+        ],
+        "start_date": "2023-09-15",
+        "started": true
+    },
+    "TN2": {
+        "completed": false,
+        "current_round": 1,
+        "description": "A friendly chess tournament to celebrate the arrival of spring.",
+        "end_date": "2023-04-15",
+        "location": "City Chess Club",
+        "name": "Spring Chess Classic",
+        "number_of_rounds": "4",
+        "players": [],
+        "start_date": "2023-04-10",
+        "started": false
+    },
+    "TN3": {
+        "completed": false,
+        "current_round": 1,
+        "description": "A fast-paced blitz chess championship for players who love quick and exciting games.",
+        "end_date": "2023-08-05",
+        "location": "Beachside Chess Club",
+        "name": "Summer Blitz Championship",
+        "number_of_rounds": "2",
+        "players": [],
+        "start_date": "2023-08-05",
+        "started": false
+    }
+}
