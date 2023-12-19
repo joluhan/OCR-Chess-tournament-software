@@ -12,6 +12,9 @@ This Python program is designed to help you create, launch, and manage chess tou
 - [Update Match Result](#update-match-result)
 - [Tournament Completion](#tournament-completion)
 - [Checking Completed Tournaments](#checking-completed-tournaments)
+- [Notes](#Note)
+- [PEP8 Compliance](#PEP8-compliance)
+- [How to generate a flake8 repport](#How-to-generate-a-flake8-repport)
 
 ## Getting Started
 
@@ -75,3 +78,36 @@ This Python program is designed to help you create, launch, and manage chess tou
 ## PEP8 Compliance
 
 The code of this program is PEP8 compliant, ensuring clean and consistent Python code style. Additionally, a Flake8 report is included to help maintain code quality.
+
+## How to generate a flake8 repport
+
+1. **Create a virtual environment**:
+   - Open your command prompt or terminal
+   - Navigate to the programme directory
+   - Run the following command to create a virtual environment:
+```
+python -m venv yenv
+```
+
+2. **Install Requirement.txt**:
+To install the packages listed in a `requirements.txt` file using `pip`, use the following command in your command prompt or terminal:
+```
+pip install -r requirements.txt
+```
+
+3. **Activate the Virtual Environment**:
+   - On Windows:
+     ```
+     source env\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```
+     source env/bin/activate
+     ```
+
+4. **Save the Report to a File**:
+   To save the Flake8 report to a file for later reference, use the following command:
+   ```
+   flake8 . > flake8_report.txt
+   ```
+   This command will save the report to a file named `flake8_report.txt` in the current directory.
