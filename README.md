@@ -108,6 +108,6 @@ pip install -r requirements.txt
 4. **Save the Report to a File**:
    To save the Flake8 report to a file for later reference, use the following command:
    ```
-   flake8 . > flake8_report.txt
+   flake8 --format=html --output-file=flake8_report.html --exclude=venv
    ```
    This command will save the report to a file named `flake8_report.txt` in the current directory.
