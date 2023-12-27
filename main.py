@@ -1,6 +1,6 @@
 
-from views.player import Player
-from views.tournament import Tournament
+from controllers.tournament import Tournament_controller
+from controllers.player import Player_controller
 
 
 def main():
@@ -14,11 +14,12 @@ def main():
         choice = input("Enter your choice: ")
         print("\n")
         if choice == "1":
-            view = Tournament()
-            view.tournament_menu()
+            tournament_controller = Tournament_controller()
+            tournament_controller.tournament_options()
         elif choice == "2":
-            view = Player()
-            view.player_menu()
+            player_controller = Player_controller()
+            player_controller.player_menu()
+
         elif choice == "0":
             break
         else:
