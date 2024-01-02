@@ -29,15 +29,18 @@
         "started": false
     },
     "TN3": {
-        "completed": false,
-        "current_round": 1,
+        "completed": true,
+        "current_round": 2,
         "description": "A fast-paced blitz chess championship for players who love quick and exciting games.",
         "end_date": "2023-08-05",
         "location": "Beachside Chess Club",
         "name": "Summer Blitz Championship",
         "number_of_rounds": "2",
-        "players": [],
+        "players": [
+            "DE14569",
+            "EF78901"
+        ],
         "start_date": "2023-08-05",
-        "started": false
+        "started": true
     }
 }

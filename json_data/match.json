@@ -85,5 +85,27 @@
                 "result": "EF78901 win the match"
             }
         }
+    },
+    "TN3": {
+        "1": {
+            "completed": true,
+            "1": {
+                "player1": "EF78901",
+                "player2": "DE14569",
+                "completed": true,
+                "winner": "EF78901",
+                "result": "EF78901 win the match"
+            }
+        },
+        "2": {
+            "completed": true,
+            "1": {
+                "player1": "EF78901",
+                "player2": "DE14569",
+                "completed": true,
+                "winner": null,
+                "result": "Draw"
+            }
+        }
     }
 }
